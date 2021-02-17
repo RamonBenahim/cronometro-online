@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.clear{
+	clear: both;
+}
+
+.fundo{
+	background-color: rgb(240, 91, 86);
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+}
+
+.principal{
+	width: 100%;
+	max-width: 850px;
+	height: 590px;
+	margin-left: 19%;
+	border: 5px solid white;
+	position: absolute;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	align-items: center;
+}
+
+
+header{
+	position: absolute;
+	width: 840px;
+	height: 170px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.imagem-relogio{
+	width: 100%;
+	height: 100%;
+	max-width: 150px;
+	max-height: 150px;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../imgs/relogio.png");
+}
+
+.logo h1{
+	position:relative;
+	color: hsl(357, 50%, 22%);;
+	left: -70px;
+	margin-top: 40px;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*------CONTADOR------*/
+
+
+
+.container-contador{
+	width: 500px;
+	height: 200px;
+	background-color: transparent;
+	padding-left: 100px;
+	margin-left: 170px;
+
+
+
+
+}
+
+.contador{
+	margin-top: 100px;
+	padding-top: 150px;
+
+	background-color: transparent;
+
+
+
+}
+
+.contador h1{
+	color: white;
+	font-size: 70px;
+}
+
+
+
+/*------------BOTÕES-----------*/
+
+
+
+
+
+.container-botao-geral{
+	width: 710px;
+	height: 10px;
+
+	padding-left: 125px;
+}
+
+.container-botao{
+	width: 600px;
+	height: 100px;
+	display: flex;
+
+	padding-right: 300px;
+	margin-left: 13px;
+	margin-top: 110px;
+	align-items: center;
+}
+
+
+
+
+
+
+.botao-comecar button.botao1{
+	font-size: 30px;
+	width: 170px;
+
+
+	height: 80px;
+	border-radius: 7px;
+	color: hsl(357, 50%, 22%);;
+}
+
+.botao-pausar button.botao2{
+	font-size: 30px;
+	width: 170px;
+
+	margin-left: 30px;
+	height: 80px;
+	border-radius: 7px;
+	color: hsl(357, 50%, 22%);
+}
+
+.botao-parar button.botao3{
+	font-size: 30px;
+	width: 170px;
+
+	margin-left: 30px;
+	height: 80px;
+	border-radius: 7px;
+	color: hsl(357, 50%, 22%);
+	/*border-style: none;
+	border-bottom: 5px solid grey;
+	box-shadow: rgb(215, 215, 215) 0px 4px 0px;*/
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+	header{
+	position: absolute;
+	width: 710px;
+	height: 170px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+	.principal{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	border: 5px solid white;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+	
+	.logo h1 {
+	width: 100%;
+	max-width: 150px;
+	position:relative;
+	color: hsl(357, 50%, 22%);;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+	.imagem-relogio{
+	width: 70%;
+	height: 70%;
+	margin-top: 25px;
+	max-width: 120px;
+	max-height: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../imgs/relogio.png");
+
+}
+
+
+.container-botao-geral{
+	/*background-color: green;*/
+	width: 100%;
+	max-width: 768px;
+	height: 350px;
+
+	max-height: 350px;
+}
+
+.container-botao{
+	width: 100%;
+	height: 55%;
+	flex-wrap: wrap;
+	background-color: blue;*/
+}
+
+.botao-comecar button.botao1{
+	font-size: 30px;
+	width: 200px;
+	height: 80px;
+	border-radius: 7px;
+	color: hsl(357, 50%, 22%);;
+}
+
+.botao-parar button.botao2{
+	font-size: 30px;
+	width: 200px;
+	height: 80px;
+	margin-right: 100px;
+	border-radius: 7px;
+	color: hsl(357, 50%, 22%);;
+	/*border-style: none;
+	border-bottom: 5px solid grey;
+	box-shadow: rgb(215, 215, 215) 0px 4px 0px;*/
+}
